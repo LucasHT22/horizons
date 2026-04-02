@@ -2,7 +2,7 @@ nexus:
   name: Horizons Nexus
   tagline: "300+ PERSON HACKATHON IN SF \u2022 JUNE 19-21"
   headline: HIGH SCHOOL FLAGSHIP HACKATHONS ACROSS THE WORLD
-  logo: /logos/horizons-nexus.svg
+  logo: /logos/nexus-logo-constrained.svg
   logoMaxWidth: 600px
   buttonText: "> CLICK  OR  PRESS  ENTER"
   buttonTextMobile: "> TAP  TO  START"
@@ -176,4 +176,76 @@ crux:
       subtitle: LEARN MORE ABOUT THE EVENT!
       action: link
       href: /crux-faq
+      icon: huh
+
+arcana:
+  name: Horizons Arcana
+  tagline: "100+ PERSON HACKATHON IN SINGAPORE \u2022 JULY 31-AUGUST 2"
+  headline: HIGH SCHOOL FLAGSHIP HACKATHONS ACROSS THE WORLD
+  logo: /logos/arcana.png
+  logoMaxWidth: 600px   # max width of the logo on the splash screen
+  buttonText: "> CLICK  OR  PRESS  ENTER"
+  buttonTextMobile: "> TAP  TO  START"
+  footerHint: "USE  WASD  OR  YOUR  MOUSE"
+  background:
+    image: null        # URL or path to a custom background image (replaces default pattern)
+    pattern: true      # use the default rotating pattern (ignored if image is set)
+    opacity: 0.5       # background pattern/image opacity
+  colors:
+    background: "#9679D9"
+    dark: "#1B3465"
+    text: "#FFE7AC"
+    primary: "#54C7FF"
+    secondary: "#080E1A"
+    tertiary: "#0061C0"
+    cardBg: "#101E38"
+  stripes:
+    - "#9679D9"
+    - "#0061C0"
+    - "#FFB8ED"
+  menu:
+    - title: JOIN NOW
+      subtitle: START WORKING ON YOUR PROJECTS!
+      action: signup
+      icon: h
+    - title: "WHAT'S ARCANA?"
+      subtitle: LEARN MORE ABOUT THE EVENT!
+      action: link
+      href: /arcana-faq
+      icon: huh
+
+polaris:
+  name: Horizons Polaris
+  tagline: "100+ PERSON HACKATHON IN TORONTO \u2022 AUG 7-9"
+  headline: HIGH SCHOOL FLAGSHIP HACKATHONS ACROSS THE WORLD
+  logo: /logos/polaris.png
+  logoMaxWidth: 600px
+  buttonText: "> CLICK  OR  PRESS  ENTER"
+  buttonTextMobile: "> TAP  TO  START"
+  footerHint: "USE  WASD  OR  YOUR  MOUSE"
+  background:
+    image: null
+    pattern: true
+    opacity: 0.5
+  colors:
+    background: "#f3e8d8"
+    dark: "#271c0c"
+    text: "#000000"
+    primary: "#ffa936"
+    secondary: "#f86d95"
+    tertiary: "#46467c"
+    cardBg: "#f3e8d8"
+  stripes:
+    - "#ffa936"
+    - "#f86d95"
+    - "#46467c"
+  menu:
+    - title: JOIN NOW
+      subtitle: START WORKING ON YOUR PROJECTS!
+      action: signup
+      icon: h
+    - title: "WHAT'S POLARIS?"
+      subtitle: LEARN MORE ABOUT THE EVENT!
+      action: link
+      href: /faq
       icon: huh
